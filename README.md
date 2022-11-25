@@ -58,4 +58,4 @@ With deeper understanding of CSS and HTML5, i want to learn something new such a
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AbibGuardian50)
+- Frontend Mentor - [AbibGuardian50](https://www.frontendmentor.io/profile/AbibGuardian50)
