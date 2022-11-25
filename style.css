@@ -1,0 +1,157 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 28.125rem;
+}
+
+.main-content {
+    border-radius: 1.25rem;
+}
+
+.main-content main .charge {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+     padding-bottom: 1rem;
+     padding-left: 0.5rem ;
+     padding-right: 0.5rem ;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content main .charge .price h6 {
+    font-weight: 900;
+}
+
+.main-content main h3 {
+    margin-top: 2.25rem;
+    font-size: 2rem;
+}
+
+.main-content main img {
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.main-content main .desc{
+    text-align: center;
+    width: 70%;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+.main-content main .charge .price {
+    margin-right: 3.5rem;
+}
+
+.main-content main .charge a {
+    font-size: 0.875rem;
+}
+
+.button-confirm .proceed {
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    border-width: 0;
+    color: hsl(225, 100%, 98%);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    box-shadow: 1px 1px black;
+    
+}
+
+.button-confirm .cancel {
+    background: none;
+    border-width: 0;
+    margin-top: 0.8rem;
+     margin-bottom: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.button-confirm {
+    display: contents;
+}
+
+@media  (max-width: 375px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        background: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 18.75rem;
+        overflow: hidden;
+    }
+
+    .main-content main img {
+        width: 18.75rem;
+    }
+
+    .main-content main .charge {
+        width: 80%;
+    }
+
+    .main-content main .charge .price h6 {
+        font-size: 0.875rem;     
+    }
+
+    .main-content main .charge .price{
+        margin-right: 1rem;
+    }
+
+    .main-content main .charge {
+        gap: 0.8rem;   
+    }
+
+    .attribution {
+        font-size: 0.8rem;
+    }
+
+    .main-content main .desc {
+        width: 91%;
+    }
+
+}
